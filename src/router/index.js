@@ -84,41 +84,6 @@ const routeMap = [
     hidden: true,
     meta: {title: 'not_same_plus'}
   },
-  // {
-  //   path: '',
-  //   component: Dashboard,
-  //   meta: {title: '首页', icon: 'home'},
-  //   redirect: 'home',
-  //   children: [
-  //     {
-  //       path: 'home',
-  //       name: 'home',
-  //       component: Home,
-  //       meta: {title: '首页'}
-  //     },
-  //   ]
-  // },
-  // {
-  //   path: '/project',
-  //   name: 'project',
-  //   component: Dashboard,
-  //   redirect: '/project/list',
-  //   meta: {title: '数据上传', icon: 'form'},
-  //   children: [
-  //     {
-  //       path: 'list',
-  //       name: 'list',
-  //       component: DataUpload,
-  //       meta: {title: '数据上传'}
-  //     },
-  //     {
-  //       path: 'add',
-  //       name: 'add',
-  //       component: Project,
-  //       meta: {title: '数据查看'}
-  //     },
-  //   ]
-  // },
 ]
 
 export default new Router({
