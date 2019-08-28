@@ -1,6 +1,6 @@
 <template>
     <div>
-      <mt-header title="notsameplus">
+      <mt-header title="notsame plus">
         <router-link to="/" slot="left">
           <mt-button icon="back">back</mt-button>
         </router-link>
@@ -35,7 +35,7 @@
           return {
             result: '',
             no: '',
-            count: '',
+            m: '',
             index: '1',
             collection: 'cqssc',
             collectionOptions: [
@@ -54,7 +54,7 @@
           onSubmit() {
             let params = {
               no: this.no,
-              count: this.count,
+              m: this.m,
               index: this.index,
               collection: this.collection,
             }

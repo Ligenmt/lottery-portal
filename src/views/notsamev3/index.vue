@@ -1,6 +1,6 @@
 <template>
     <div>
-      <mt-header title="abxxn">
+      <mt-header title="notsame v3">
         <router-link to="/" slot="left">
           <mt-button icon="back">back</mt-button>
         </router-link>

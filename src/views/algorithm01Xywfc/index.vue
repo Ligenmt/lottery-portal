@@ -5,9 +5,8 @@
           <mt-button icon="back">back</mt-button>
         </router-link>
       </mt-header>
-      <mt-field label="起始期数" placeholder="起始期数" v-model="no"></mt-field>
-      <mt-field label="号码" placeholder="号码" v-model="code"></mt-field>
-      <mt-field label="M" placeholder="M" v-model="count"></mt-field>
+      <mt-field label="期号" placeholder="期号" v-model="no"></mt-field>
+      <mt-field label="期数" placeholder="期数" v-model="count"></mt-field>
       <div style="margin: 0 auto; padding: 10px; text-align: center">
         <mt-button type="primary" @click="onSubmit">提交</mt-button>
       </div>
@@ -24,7 +23,6 @@
         data() {
           return {
             result: '',
-            code: '',
             count: '',
             no: '',
           }

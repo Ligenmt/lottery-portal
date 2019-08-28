@@ -50,6 +50,14 @@ export function algorithm01Xywfc(params) {
   })
 }
 
+export function notsame(params) {
+  return request({
+    url: '/api/not_same',
+    method: 'POST',
+    data: params,
+  })
+}
+
 export function notsamev3(params) {
   return request({
     url: '/api/not_same_v3',

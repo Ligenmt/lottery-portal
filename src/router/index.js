@@ -64,18 +64,25 @@ const routeMap = [
     meta: {title: 'algorithm01幸运五分彩'}
   },
   {
+    path: '/not_same',
+    name: 'not_same',
+    component: () => import('@/views/notsame/index'),
+    hidden: true,
+    meta: {title: 'not_same'}
+  },
+  {
     path: '/not_same_v3',
     name: 'not_same_v3',
     component: () => import('@/views/notsamev3/index'),
     hidden: true,
-    meta: {title: 'algorithm01幸运五分彩'}
+    meta: {title: 'not_same_v3'}
   },
   {
     path: '/not_same_plus',
     name: 'not_same_plus',
     component: () => import('@/views/notsameplus/index'),
     hidden: true,
-    meta: {title: 'algorithm01幸运五分彩'}
+    meta: {title: 'not_same_plus'}
   },
   // {
   //   path: '',

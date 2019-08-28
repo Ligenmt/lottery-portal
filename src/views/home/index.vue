@@ -10,9 +10,9 @@
       <mt-cell title="order_tail"></mt-cell>
       <mt-cell title="order_tail_v2"></mt-cell>
       <mt-cell title="qishu_intertval"></mt-cell>
-      <mt-cell title="not_same"></mt-cell>
-      <mt-cell title="not_same_plus"></mt-cell>
-      <mt-cell title="not_same_v3"></mt-cell>
+      <mt-cell title="not_same" to="not_name"></mt-cell>
+      <mt-cell title="not_same_plus" to="not_same_plus"></mt-cell>
+      <mt-cell title="not_same_v3" to="not_same_v3"></mt-cell>
       <mt-cell title="algorithm01" to="algorithm01"></mt-cell>
       <mt-cell title="algorithm01幸运五分彩" to="algorithm01Xywfc"></mt-cell>
       <mt-cell title="algorithm01排列5" to="algorithm01Pl5"></mt-cell>
