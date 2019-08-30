@@ -10,6 +10,15 @@ export function abxxn(params) {
   })
 }
 
+export function abxxnFilt(params) {
+  return request({
+    // url: 'http://localhost:8090/api/abxxn',
+    url: '/api/abxxn/filt',
+    method: 'POST',
+    data: params,
+  })
+}
+
 export function abxxn2(params) {
   return request({
     url: '/api/abxxn2',
