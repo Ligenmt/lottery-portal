@@ -14,37 +14,37 @@
         <p>第1,2位</p>
         <div v-for="item in resultArray12">
           <div v-if="item.active">
-            <span>期号:{{item.no}}  号码: {{item.result}}</span><input type="checkbox" @click="check(1, 2, item.result)" style="margin: 10px;">
+            <span>{{item.index}} 期号:{{item.no}}  号码: {{item.result}}</span><input type="checkbox" @click="check(1, 2, item.result)" style="margin: 10px;">
           </div>
         </div>
         <p>第1,3位</p>
         <div v-for="item in resultArray13">
           <div v-if="item.active">
-            <span>期号:{{item.no}}  号码: {{item.result}}</span><input type="checkbox" @click="check(1, 3, item.result)" style="margin: 10px;">
+            <span>{{item.index}} 期号:{{item.no}}  号码: {{item.result}}</span><input type="checkbox" @click="check(1, 3, item.result)" style="margin: 10px;">
           </div>
         </div>
         <p>第1,4位</p>
         <div v-for="item in resultArray14">
           <div v-if="item.active">
-            <span>期号:{{item.no}}  号码: {{item.result}}</span><input type="checkbox" @click="check(1, 4, item.result)" style="margin: 10px;">
+            <span>{{item.index}} 期号:{{item.no}}  号码: {{item.result}}</span><input type="checkbox" @click="check(1, 4, item.result)" style="margin: 10px;">
           </div>
         </div>
         <p>第2,3位</p>
         <div v-for="item in resultArray23">
           <div v-if="item.active">
-            <span>期号:{{item.no}}  号码: {{item.result}}</span><input type="checkbox" @click="check(2, 3, item.result)" style="margin: 10px;">
+            <span>{{item.index}} 期号:{{item.no}}  号码: {{item.result}}</span><input type="checkbox" @click="check(2, 3, item.result)" style="margin: 10px;">
           </div>
         </div>
         <p>第2,4位</p>
         <div v-for="item in resultArray24">
           <div v-if="item.active">
-            <span>期号:{{item.no}}  号码: {{item.result}}</span><input type="checkbox" @click="check(2, 4, item.result)" style="margin: 10px;">
+            <span>{{item.index}} 期号:{{item.no}}  号码: {{item.result}}</span><input type="checkbox" @click="check(2, 4, item.result)" style="margin: 10px;">
           </div>
         </div>
         <p>第3,4位</p>
         <div v-for="item in resultArray34">
           <div v-if="item.active">
-            <span>期号:{{item.no}}  号码: {{item.result}}</span><input type="checkbox" @click="check(3, 4, item.result)" style="margin: 10px;">
+            <span>{{item.index}} 期号:{{item.no}}  号码: {{item.result}}</span><input type="checkbox" @click="check(3, 4, item.result)" style="margin: 10px;">
           </div>
         </div>
       </div>
