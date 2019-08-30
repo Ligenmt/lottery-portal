@@ -10,10 +10,10 @@ const state = {
 }
 
 const store = new Vuex.Store({
-  // modules: {
-  //   app,
-  // },
-  // getters
+  modules: {
+    app,
+  },
+  getters,
   state
 })
 export default store

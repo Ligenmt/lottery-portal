@@ -29,6 +29,13 @@ const routeMap = [
     meta: {title: 'abxxn'}
   },
   {
+    path: '/abxxnfilt',
+    name: 'abxxnfilt',
+    component: () => import('@/views/abxxnfilt/index'),
+    hidden: true,
+    meta: {title: 'abxxnfilt'}
+  },
+  {
     path: '/abxxn2',
     name: 'abxxn2',
     component: () => import('@/views/abxxn2/index'),

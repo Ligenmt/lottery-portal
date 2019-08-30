@@ -110,6 +110,12 @@
           abxxnFilt(params).then(res=>{
             let result = res.data
             this.filtResult = result
+            // this.$store.dispatch('SetAbxxnFilt', result).then(()=>{
+            //   this.$router.push('/abxxnfilt')
+            // })
+            // this.$store.commit('SET_ABXXN_FILT',result)
+            localStorage.setItem('abxxnfilt', JSON.stringify(result));
+            this.$router.push('/abxxnfilt')
           })
         },
         check(a, b, result) {

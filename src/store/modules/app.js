@@ -6,9 +6,14 @@ const app = {
       opened: !+Cookies.get('sidebarStatus'),
       withoutAnimation: false
     },
-    device: 'desktop'
+    device: 'desktop',
+    filtResult: [],
   },
   mutations: {
+    SET_ABXXN_FILT: (state, filt) => {
+      state.filtResult = filt
+    },
+
     TOGGLE_SIDEBAR: state => {
       if (state.sidebar.opened) {
         Cookies.set('sidebarStatus', 1)
@@ -27,6 +32,9 @@ const app = {
     }
   },
   actions: {
+    SetAbxxnFilt: ({commit}, filt) => {
+      commit('SET_ABXXN_FILT', filt)
+    },
     ToggleSideBar: ({ commit }) => {
       commit('TOGGLE_SIDEBAR')
     },
